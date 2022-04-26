@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magearya
+ *
+ * @category    Magearya
+ * @package     Magearya_InformativeProduct
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
+    <type name="informative" label="Informative Product" modelInstance="Magearya\InformativeProduct\Model\Product\Type\Informative" indexPriority="60" sortOrder="80" isQty="true">
+    </type>
+    <composableTypes>
+        <type name="informative" />
+    </composableTypes>
+</config>
